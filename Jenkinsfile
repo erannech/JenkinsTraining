@@ -18,7 +18,7 @@ pipeline {
       stage('Test') {
             steps {
                 // This is a step of type "echo". It doesn't do much, only prints some text.
-                echo 'This is a test stage'
+                echo 'This is a test stage blabla'
                 // For a list of all the supported steps, take a look at
                 // https://jenkins.io/doc/pipeline/steps/ .
             }
